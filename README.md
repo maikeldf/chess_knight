@@ -13,18 +13,17 @@ The board can be described by a matrix of N rows and M columns of integers. But,
 
 For example, consider following matrix A:
 
-A[0][0] = 0 A[0][1] = 0 A[0][2] = 0
-A[1][0] = 0 A[1][1] = 0 A[1][2] = 1
-A[2][0] = 1 A[2][1] = 0 A[2][2] = 0
-A[3][0] = 0 A[3][1] = 0 A[3][2] = 0
+A[0][0] = 0 A[0][1] = 0 A[0][2] = 0  
+A[1][0] = 0 A[1][1] = 0 A[1][2] = 1  
+A[2][0] = 1 A[2][1] = 0 A[2][2] = 0  
+A[3][0] = 0 A[3][1] = 0 A[3][2] = 0  
 
 Consider the knight starting in A[0][0]. 
 To go to A[3][2] the minimum required moves are:
 
-A[0][0] -> A[2][1] -> A[0][2] -> A[1][0] 
--> A[2][2] -> A[3][0] -> A[1][1] -> A[3][2]
+A[0][0] -> A[2][1] -> A[0][2] -> A[1][0]-> A[2][2] -> A[3][0] -> A[1][1] -> A[3][2]
 
-This code solves this challenge. 
+This code returns the minimum of required moves. 
 
 
 
